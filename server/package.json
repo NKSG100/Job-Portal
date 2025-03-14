@@ -5,8 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "set NODE_OPTIONS=--no-deprecation && nodemon server.js",
-    "server": "set NODE_OPTIONS=--no-deprecation && nodemon server.js",
+    "server": "nodemon server.js",
     "start": "node server.js"
   },
   "keywords": [],
