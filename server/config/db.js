@@ -1,7 +1,5 @@
 import mongoose from 'mongoose';
 
-//Function to connect to mongodb server
-
 const connectDB = async () => {
   try {
     await mongoose.connect(`${process.env.MONGODB_URI}/job-portal`);
