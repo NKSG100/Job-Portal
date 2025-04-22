@@ -19,10 +19,12 @@ connectDB();
 
 await connectCloudinary();
 
+const Origins = ["http://localhost:5173","https://my-job-portal.vercel.app"]
+
 // Middleware
 app.use(express.json());
 app.use(cors({
-    origin: "https://my-job-portal.vercel.app",
+    origin: Origins,
     methods: "GET,POST,PUT,DELETE",
     credentials: true,
   }));

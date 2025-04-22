@@ -4,6 +4,7 @@
 The **Job Portal** is a full-stack web application built using the **MERN stack (MongoDB, Express.js, React, Node.js)**. This platform allows users to search and apply for jobs while providing recruiters the ability to post job openings, review applications, and manage hiring decisions.
 
 ## Features
+
 ### Job Seekers:
 - Sign up and log in to the platform.
 - Search and filter jobs based on category, location, and keywords.
@@ -23,6 +24,7 @@ The **Job Portal** is a full-stack web application built using the **MERN stack 
 - Real-time updates on job applications.
 
 ## Tech Stack
+
 ### Frontend (Client)
 - React.js (with React Router & Redux for state management)
 - Axios (for API calls)
@@ -35,7 +37,11 @@ The **Job Portal** is a full-stack web application built using the **MERN stack 
 - bcrypt (for password hashing)
 - Multer (for file uploads if needed)
 
+## Homepage Screenshot
+![Image](https://github.com/user-attachments/assets/3e6c105e-bdf3-4c5e-b960-ad84c24d0e2b)  
+
 ## Installation & Setup
+
 ### Prerequisites
 Ensure you have the following installed:
 - Node.js (v14+)
@@ -43,10 +49,11 @@ Ensure you have the following installed:
 - Git
 
 ### Steps to Run the Project
+
 1. **Clone the Repository:**
 ```sh
-git clone https://github.com/your-username/job-portal.git
-cd job-portal
+git clone https://github.com/NKSG100/Job-Portal.git
+cd Job-Portal
 ```
 
 2. **Setup the Client:**
@@ -62,19 +69,19 @@ npm install
 ```
 
 4. **Environment Configuration:**
-- Create a `.env` file in both `client/` and `server/` directories.
-- Add the following environment variables:
+
+Create a `.env` file in both `client/` and `server/` directories and add the following variables:
 
 #### Client (`client/.env`)
 ```
-REACT_APP_API_URL=http://localhost:5000
+REACT_APP_API_URL=
 ```
 
 #### Server (`server/.env`)
 ```
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+PORT=
+MONGO_URI=
+JWT_SECRET=
 ```
 
 5. **Run the Backend Server:**
@@ -91,16 +98,8 @@ npm start
 7. **Access the Application:**
 Open your browser and go to `http://localhost:3000`
 
-
-## Folder Structure
-```
-mainproject/
-│── client/        # React frontend
-│── server/        # Node.js/ExpressJS backend
-│── .gitignore
-```
-
 ---
+
 ### 🌟 Show Your Support
 If you like this project, please ⭐️ the repository on GitHub!
 
