@@ -5,11 +5,11 @@ import JobListing from '../components/JobListing'
 import Footer from '../components/Footer'
 const Home = () => {
   return (
-    <div>
-        <Navbar/>
-        <Hero/>
-        <JobListing/>
-        <Footer/>
+    <div className='bg-blue-100/50'>
+      <Navbar />
+      <Hero />
+      <JobListing />
+      <Footer />
     </div>
   )
 }
